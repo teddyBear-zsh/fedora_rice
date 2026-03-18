@@ -129,79 +129,7 @@ dotfiles/
 └── README.md
 ```
 
----
 
-## Keybinds
-
-### Foco entre ventanas — Forge
-| Keybind | Acción |
-|---|---|
-| `Alt + Shift + D` | Foco izquierda |
-| `Alt + Shift + A` | Foco derecha |
-| `Alt + Shift + W` | Foco arriba |
-| `Alt + Shift + S` | Foco abajo |
-
-### Mover ventanas — Forge
-| Keybind | Acción |
-|---|---|
-| `Super + Shift + ←` | Mover ventana izquierda |
-| `Super + Shift + →` | Mover ventana derecha |
-| `Super + Shift + ↑` | Mover ventana arriba |
-| `Super + Shift + ↓` | Mover ventana abajo |
-
-### Resize de ventanas — Forge
-| Keybind | Acción |
-|---|---|
-| `Super + Alt + ←` | Reducir ancho |
-| `Super + Alt + →` | Aumentar ancho |
-| `Super + Alt + ↑` | Reducir alto |
-| `Super + Alt + ↓` | Aumentar alto |
-
-### Float / Layout — Forge
-| Keybind | Acción |
-|---|---|
-| `Super + Shift + F` | Toggle float/tile |
-| `Super + Enter` | Swap con última ventana activa |
-| `Super + J` | Toggle split |
-| `Super + Z` | Toggle split layout |
-| `Super + T` | Layout tabbed |
-| `Super + G` | Toggle focus border |
-| `Super + +` | Aumentar gaps |
-| `Super + -` | Reducir gaps |
-
-### Workspaces — GNOME Settings → Keyboard
-| Keybind | Acción |
-|---|---|
-| `Super + 1-9` | Ir al workspace 1-9 |
-| `Super + Shift + 1-9` | Mover ventana al workspace 1-9 |
-
-### Apps — GNOME Settings → Keyboard → Custom Shortcuts
-| Keybind | Acción | Comando |
-|---|---|---|
-| `Super + T` | Terminal | `kitty` |
-| `Super + W` | Cerrar ventana | `close-window` |
-| `Super + P` | Launcher | `wofi --show drun` |
-| `Super + B` | Navegador | `firefox` |
-
----
-
-## Scripts
-
-### wallpaper.sh
-```bash
-wallpaper imagen.jpg     # Aplica imagen específica
-wallrand                 # Wallpaper aleatorio de ~/wallpapers/
-wallpaper                # Reaplicar el último usado
-```
-
-### theme-switch.sh
-```bash
-theme                    # Alterna Tokyo Night ↔ Catppuccin
-theme-tokyo              # Fuerza Tokyo Night Storm
-theme-cat                # Fuerza Catppuccin Mocha
-```
-
----
 
 ## Aliases principales
 
