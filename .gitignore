@@ -1,0 +1,40 @@
+# ╔══════════════════════════════════════════╗
+# ║   .gitignore — dotfiles                  ║
+# ╚══════════════════════════════════════════╝
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets y credenciales ───────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+*.secret
+.aws/credentials
+.aws/config
+.ssh/
+.gnupg/
+
+# ── pywal (generado automáticamente) ─────────────────────────
+.cache/wal/
+
+# ── Backups generados por install.sh ─────────────────────────
+.config-backup-*/
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Node ─────────────────────────────────────────────────────
+node_modules/
+.npm/
+
+# ── Temporales ───────────────────────────────────────────────
+*.swp
+*.swo
+*~
+.tmp/
+tmp/

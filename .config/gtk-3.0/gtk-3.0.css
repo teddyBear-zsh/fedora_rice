@@ -1,0 +1,58 @@
+/* ╔══════════════════════════════════════╗
+    ║   GTK 3 — Catppuccin Mocha overrides ║
+    ╚══════════════════════════════════════╝
+    Apply base theme via GNOME Tweaks first:
+    Appearance → Applications → catppuccin-mocha-mauve-standard
+*/
+
+@define-color accent_color         #cba6f7;
+@define-color accent_bg_color      #cba6f7;
+@define-color accent_fg_color      #1e1e2e;
+@define-color destructive_color    #f38ba8;
+@define-color destructive_bg_color #f38ba8;
+@define-color destructive_fg_color #1e1e2e;
+@define-color success_color        #a6e3a1;
+@define-color warning_color        #fab387;
+@define-color error_color          #f38ba8;
+@define-color window_bg_color      #1e1e2e;
+@define-color window_fg_color      #cdd6f4;
+@define-color view_bg_color        #181825;
+@define-color view_fg_color        #cdd6f4;
+@define-color headerbar_bg_color   #181825;
+@define-color headerbar_fg_color   #cdd6f4;
+@define-color headerbar_border_color #313244;
+@define-color sidebar_bg_color     #181825;
+@define-color sidebar_fg_color     #cdd6f4;
+@define-color card_bg_color        #313244;
+@define-color card_fg_color        #cdd6f4;
+@define-color popover_bg_color     #313244;
+@define-color popover_fg_color     #cdd6f4;
+
+/* Rounded corners on windows */
+window {
+    border-radius: 10px;
+}
+
+/* Headerbar */
+headerbar {
+    background-color: @headerbar_bg_color;
+    border-bottom: 1px solid @headerbar_border_color;
+}
+
+/* Scrollbars */
+scrollbar slider {
+    background-color: #45475a;
+    border-radius: 10px;
+    min-width: 6px;
+    min-height: 6px;
+}
+
+scrollbar slider:hover {
+    background-color: #585b70;
+}
+
+/* Selection */
+selection {
+    background-color: @accent_color;
+    color: @accent_fg_color;
+}

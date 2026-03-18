@@ -1,0 +1,79 @@
+/* 
+    ╔══════════════════════════════════════╗
+    ║   Wofi — Tokyo Night Storm           ║
+    ╚══════════════════════════════════════╝ 
+*/
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+window {
+    background-color: rgba(36, 40, 59, 0.97);
+    border: 1.5px solid #7aa2f7;
+    border-radius: 14px;
+    padding: 6px;
+}
+
+/* Search input */
+#input {
+    background-color: #1f2335;
+    color: #c0caf5;
+    border: 1.5px solid #414868;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin: 8px 8px 4px 8px;
+    caret-color: #7aa2f7;
+}
+
+#input:focus {
+    border-color: #7aa2f7;
+}
+
+#input::placeholder {
+    color: #565f89;
+}
+
+/* Scroll area */
+#scroll {
+    margin: 4px 4px 8px 4px;
+}
+
+/* Each entry */
+#entry {
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 2px 0;
+    transition: background-color 0.15s ease;
+}
+
+#entry:selected {
+    background-color: #283457;
+}
+
+#text {
+    color: #c0caf5;
+    padding: 0 6px;
+}
+
+#text:selected {
+    color: #7aa2f7;
+    font-weight: bold;
+}
+
+#entry > #text + #text {
+    color: #565f89;
+    font-size: 12px;
+}
+
+#entry:selected > #text + #text {
+    color: #7dcfff;
+}
+
+/* Image/icon */
+#img {
+    border-radius: 6px;
+}

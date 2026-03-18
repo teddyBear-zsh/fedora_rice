@@ -1,0 +1,73 @@
+    /* ╔══════════════════════════════════════╗
+    ║   Wofi — pywal dynamic colors        ║
+    ║   Generado por wallpaper.sh          ║
+    ╚══════════════════════════════════════╝ */
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+window {
+    background-color: #16031ff7;
+    border: 1.5px solid #0fa7d1;
+    border-radius: 14px;
+    padding: 6px;
+}
+
+#input {
+    background-color: #1086a9cc;
+    color: #c3c3c4;
+    border: 1.5px solid #5f13b3;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin: 8px 8px 4px 8px;
+    caret-color: #0fa7d1;
+}
+
+#input:focus {
+    border-color: #0fa7d1;
+}
+
+#input::placeholder {
+    color: #5f13b3;
+}
+
+#scroll {
+    margin: 4px 4px 8px 4px;
+}
+
+#entry {
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 2px 0;
+}
+
+#entry:selected {
+    background-color: #f12600cc;
+}
+
+#text {
+    color: #c3c3c4;
+    padding: 0 6px;
+}
+
+#text:selected {
+    color: #0fa7d1;
+    font-weight: bold;
+}
+
+#entry > #text + #text {
+    color: #5f13b3;
+    font-size: 12px;
+}
+
+#entry:selected > #text + #text {
+    color: #4ecee4;
+}
+
+#img {
+    border-radius: 6px;
+}

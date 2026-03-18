@@ -1,0 +1,52 @@
+{
+    "_schema": "forge-config",
+
+    "css": {
+        "workspaceActiveTabIndicatorColor": "#7aa2f7",
+        "workspaceInactiveTabIndicatorColor": "#414868",
+        "workspaceActiveTabIndicatorHeight": "2px",
+        "splitBorderSize": 2,
+        "splitBorderColor": "#cba6f7",
+        "splitBorderColorInactive": "#45475a",
+        "focusBorderSize": 2,
+        "focusBorderColor": "#cba6f7",
+        "focusBorderRadius": 10,
+        "floatingBorderSize": 2,
+        "floatingBorderColor": "#89b4fa",
+        "primaryColor": "#cba6f7",
+        "secondaryColor": "#89b4fa",
+        "errorColor": "#f38ba8",
+        "warningColor": "#f9e2af",
+        "successColor": "#a6e3a1"
+    },
+
+    "tiling": {
+        "layout": "auto",
+        "defaultSplitType": "auto",
+        "splitVerticalBias": 0.5,
+        "splitHorizontalBias": 0.5,
+        "preview": true,
+        "gaps": {
+        "top": 8,
+        "bottom": 8,
+        "left": 8,
+        "right": 8,
+        "inner": {
+            "horizontal": 8,
+            "vertical": 8
+        }
+        }
+    },
+
+    "floatingWindows": [
+        { "wmclass": "nm-connection-editor" },
+        { "wmclass": "pavucontrol" },
+        { "wmclass": "org.gnome.Calculator" },
+        { "wmclass": "org.gnome.Settings" },
+        { "wmclass": "Postman" }
+    ],
+
+    "keybindings": {
+        
+    }
+}

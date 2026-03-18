@@ -1,0 +1,81 @@
+# ╔══════════════════════════════════════╗
+# ║   Kitty — Tokyo Night Storm          ║
+# ║
+# ╚══════════════════════════════════════╝
+
+# ── Fonts ────────────────────────────────
+font_family      JetBrainsMono Nerd Font
+bold_font        JetBrainsMono Nerd Font Bold
+italic_font      JetBrainsMono Nerd Font Italic
+bold_italic_font JetBrainsMono Nerd Font Bold Italic
+font_size        13.0
+disable_ligatures never
+
+# ── Tokyo Night Storm Colorscheme ────────
+background             #24283b
+foreground             #c0caf5
+selection_background   #283457
+selection_foreground   #c0caf5
+url_color              #7dcfff
+cursor                 #c0caf5
+cursor_text_color      #24283b
+
+# Black
+color0  #1d202f
+color8  #414868
+# Red
+color1  #f7768e
+color9  #f7768e
+# Green
+color2  #9ece6a
+color10 #9ece6a
+# Yellow
+color3  #e0af68
+color11 #e0af68
+# Blue
+color4  #7aa2f7
+color12 #7aa2f7
+# Magenta
+color5  #bb9af7
+color13 #bb9af7
+# Cyan
+color6  #7dcfff
+color14 #7dcfff
+# White
+color7  #a9b1d6
+color15 #c0caf5
+
+# ── Window ───────────────────────────────
+background_opacity      0.93
+dynamic_background_color no
+window_padding_width    14
+window_border_width     1pt
+active_border_color     #7aa2f7
+inactive_border_color   #414868
+draw_minimal_borders    yes
+
+# ── Cursor ───────────────────────────────
+cursor_shape          beam
+cursor_beam_thickness 1.8
+cursor_blink_interval 0
+
+# ── Scrollback ───────────────────────────
+scrollback_lines 10000
+
+# ── Tab Bar ──────────────────────────────
+tab_bar_edge            bottom
+tab_bar_style           powerline
+tab_powerline_style     slanted
+active_tab_foreground   #24283b
+active_tab_background   #7aa2f7
+inactive_tab_foreground #a9b1d6
+inactive_tab_background #1f2335
+tab_title_template      " {index}: {title} "
+
+# ── Bell ─────────────────────────────────
+enable_audio_bell no
+visual_bell_duration 0.0
+
+# ── Misc ─────────────────────────────────
+confirm_os_window_close 0
+shell_integration       enabled
